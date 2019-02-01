@@ -12,9 +12,10 @@ const opts = {
 function getRandomColor() {
 
   let hue = Math.floor(Math.random() * 255);
+
   const styles = {
-    backgroundColor: `hsl(${hue}, 60%, 20%)`,
-    color: `hsl(${hue}, 60%, 80%)`
+    backgroundColor: `hsl(${hue}, 20%, 80%)`,
+    color: `hsl(${hue}, 40%, 5%)`
   }
   return styles;
 }
