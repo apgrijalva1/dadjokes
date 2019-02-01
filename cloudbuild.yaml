@@ -10,7 +10,7 @@ steps:
   - image
   - deployment
   - dadjokes
-  - web=gcr.io/$PROJECT_ID/dadjokes:$COMMIT_SHA
+  - github-kellyjandrews-dadjokes=gcr.io/$PROJECT_ID/dadjokes:$COMMIT_SHA
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=dadjokes-cluster'
