@@ -13,9 +13,14 @@ html, body {
 .joke-wrapper {
   height: calc(100% - 40px);
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   font-size: 2em;
   text-align: center;
+}
+
+.joke-wrapper h1 {
+  display: block;
 }

@@ -14,15 +14,16 @@ function getRandomColor() {
   let hue = Math.floor(Math.random() * 255);
 
   const styles = {
-    backgroundColor: `hsl(${hue}, 60%, 20%)`,
-    color: `hsl(${hue}, 40%, 80%)`
+    backgroundColor: `hsl(${hue}, 60%, 60%)`,
+    color: `hsl(${hue}, 40%, 20%)`
   }
   return styles;
 }
 
 const App = ({joke, styles}) => {
   return(
-    <div className='joke-wrapper' style={styles} >
+    <div className='joke-wrapper' style={styles}>
+      <h1>Dad Jokes!</h1>
       {joke}
     </div>
   )
