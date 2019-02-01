@@ -1,7 +1,10 @@
-version: "3"
+version: "3.4"
 services:
   app:
-    build: .
+    build:
+      context: .
+      target: dev-stage
+    command: ["npm", "start"]
     volumes:
     - .:/usr/src/
     - /usr/src/node_modules

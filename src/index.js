@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-const baseUrl = 'https://webhooks.mongodb-stitch.com/api/client/v2.0/app/<APP NAME>/service/<SERVICE NAME>/incoming_webhook/<WEBHOOK>?secret=<SECRET>';
+const baseUrl = 'https://icanhazdadjoke.com/';
 const opts = {
   headers: {
     'Accept': 'application/json'
