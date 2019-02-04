@@ -1,0 +1,7 @@
+{
+  "name": "Dadjokes",
+  "description": "Hi app, my name is Dad",
+  "repository": "https://github.com/kellyjandrews/dadjokes",
+  "logo": "",
+  "keywords": ["node", "react", "dadjokes"]
+}
